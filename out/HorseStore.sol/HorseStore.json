@@ -1,0 +1,123 @@
+{
+    "abi": [
+        {
+            "type": "function",
+            "name": "readNumberOfHorses",
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "stateMutability": "view"
+        },
+        {
+            "type": "function",
+            "name": "updateHorseNumber",
+            "inputs": [
+                {
+                    "name": "newNumberOfHorses",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [],
+            "stateMutability": "nonpayable"
+        }
+    ],
+    "bytecode": {
+        "object": "0x6080604052348015600e575f80fd5b5060a58061001b5f395ff3fe6080604052348015600e575f80fd5b50600436106030575f3560e01c8063cdfead2e146034578063e026c017146045575b5f80fd5b6043603f3660046059565b5f55565b005b5f5460405190815260200160405180910390f35b5f602082840312156068575f80fd5b503591905056fea2646970667358221220b2d4551faecc01323fad45407dc85b5b48ef341912bad2715dd5a65a823928c264736f6c63430008170033",
+        "sourceMap": "67:277:26:-:0;;;;;;;;;;;;;;;;;;;",
+        "linkReferences": {}
+    },
+    "deployedBytecode": {
+        "object": "0x6080604052348015600e575f80fd5b50600436106030575f3560e01c8063cdfead2e146034578063e026c017146045575b5f80fd5b6043603f3660046059565b5f55565b005b5f5460405190815260200160405180910390f35b5f602082840312156068575f80fd5b503591905056fea2646970667358221220b2d4551faecc01323fad45407dc85b5b48ef341912bad2715dd5a65a823928c264736f6c63430008170033",
+        "sourceMap": "67:277:26:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;122:114;;;;;;:::i;:::-;195:14;:34;122:114;;;242:100;295:7;321:14;242:100;;345:25:29;;;333:2;318:18;242:100:26;;;;;;;14:180:29;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;-1:-1:-1;165:23:29;;14:180;-1:-1:-1;14:180:29:o",
+        "linkReferences": {}
+    },
+    "methodIdentifiers": {
+        "readNumberOfHorses()": "e026c017",
+        "updateHorseNumber(uint256)": "cdfead2e"
+    },
+    "rawMetadata": "{\"compiler\":{\"version\":\"0.8.23+commit.f704f362\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"readNumberOfHorses\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"newNumberOfHorses\",\"type\":\"uint256\"}],\"name\":\"updateHorseNumber\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/horseStoreV1/HorseStore.sol\":\"HorseStore\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/foundry-huff/lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":foundry-huff/=lib/foundry-huff/src/\",\":solidity-stringutils/=lib/foundry-huff/lib/solidity-stringutils/\",\":stringutils/=lib/foundry-huff/lib/solidity-stringutils/\"]},\"sources\":{\"src/horseStoreV1/HorseStore.sol\":{\"keccak256\":\"0x208603d64921895b976fc88734841dfc273dfae0be0209b885fff14dbbb45915\",\"license\":\"GPL-3.0-only\",\"urls\":[\"bzz-raw://b6655e832c96e9a0ba6e09902aa2bda817c437a5e915de409c0d3d4b948f8dab\",\"dweb:/ipfs/QmUwnQ41xaUsSK4F9MHSTBCajBbnwf3M5yV5cMsTMh65Pq\"]}},\"version\":1}",
+    "metadata": {
+        "compiler": {
+            "version": "0.8.23+commit.f704f362"
+        },
+        "language": "Solidity",
+        "output": {
+            "abi": [
+                {
+                    "inputs": [],
+                    "stateMutability": "view",
+                    "type": "function",
+                    "name": "readNumberOfHorses",
+                    "outputs": [
+                        {
+                            "internalType": "uint256",
+                            "name": "",
+                            "type": "uint256"
+                        }
+                    ]
+                },
+                {
+                    "inputs": [
+                        {
+                            "internalType": "uint256",
+                            "name": "newNumberOfHorses",
+                            "type": "uint256"
+                        }
+                    ],
+                    "stateMutability": "nonpayable",
+                    "type": "function",
+                    "name": "updateHorseNumber"
+                }
+            ],
+            "devdoc": {
+                "kind": "dev",
+                "methods": {},
+                "version": 1
+            },
+            "userdoc": {
+                "kind": "user",
+                "methods": {},
+                "version": 1
+            }
+        },
+        "settings": {
+            "remappings": [
+                "ds-test/=lib/foundry-huff/lib/forge-std/lib/ds-test/src/",
+                "forge-std/=lib/forge-std/src/",
+                "foundry-huff/=lib/foundry-huff/src/",
+                "solidity-stringutils/=lib/foundry-huff/lib/solidity-stringutils/",
+                "stringutils/=lib/foundry-huff/lib/solidity-stringutils/"
+            ],
+            "optimizer": {
+                "enabled": true,
+                "runs": 200
+            },
+            "metadata": {
+                "bytecodeHash": "ipfs"
+            },
+            "compilationTarget": {
+                "src/horseStoreV1/HorseStore.sol": "HorseStore"
+            },
+            "evmVersion": "shanghai",
+            "libraries": {}
+        },
+        "sources": {
+            "src/horseStoreV1/HorseStore.sol": {
+                "keccak256": "0x208603d64921895b976fc88734841dfc273dfae0be0209b885fff14dbbb45915",
+                "urls": [
+                    "bzz-raw://b6655e832c96e9a0ba6e09902aa2bda817c437a5e915de409c0d3d4b948f8dab",
+                    "dweb:/ipfs/QmUwnQ41xaUsSK4F9MHSTBCajBbnwf3M5yV5cMsTMh65Pq"
+                ],
+                "license": "GPL-3.0-only"
+            }
+        },
+        "version": 1
+    },
+    "id": 26
+}
