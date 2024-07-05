@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-# assembly-opcodes
-Assembly, EVM Opcodes in Yul &amp; Huff
-=======
-# Horse Store
+# Assembly, EVM Opcodes in Yul &amp; Huff
+
+## Horse Store Contract 
 
 1. Write a basic simplestorage/horse store
 
@@ -30,7 +28,7 @@ Assembly, EVM Opcodes in Yul &amp; Huff
 - The memory index `0x40` is **special** in solidity , its where you check the *0x40 offset* of the memory array for the next free space.
 
 <p align="center">
-<img src="./diagrams/free_mem_pointer.png" width="500"
+<img src="./diagrams/free_mem_pointer.png" width="700"
 <br/>
 
 ### <ins>Metadata: </ins>
@@ -51,13 +49,12 @@ Assembly, EVM Opcodes in Yul &amp; Huff
 
 ## Some commands used : 
 ```
-cast sig "readNumberOfHorses()"
-cast to-base 0x80 10
-cast to-base 0xcdfead2e bin
+cast sig "readNumberOfHorses()"   // returns function signature
+cast to-base 0x80 10              // convert into decimal 
+cast to-base 32 16                // convert into hexadecimal      
 
 huffc src/horseStoreV1/HorseStore.huff -b
 huffc src/horseStoreV1/HorseStore.huff --bin-runtime
 forge test --match-path *Huff* --debug testReadValue -vvvv
 
 ```
->>>>>>> 204a699 (added opcode files)
