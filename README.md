@@ -32,6 +32,11 @@
 <img src="./diagrams/free_mem_pointer.png" width="700"
 <br/>
 
+### <ins>Stack & Memory in EVM: </ins>
+<p align="center">
+<img src="./diagrams/stack & memory in evm.png" width="700"
+<br/>
+
 ### <ins>Metadata: </ins>
 - Inaccessible code which can never be reached by a transaction interact with smart contracts , some chunks of metadata that solidity puts in to identify things like what version,optimization , And how it was compiled etc.
 
