@@ -1,6 +1,7 @@
 # Assembly, EVM Opcodes in Yul &amp; Huff
 
 ## Horse Store Contract 
+### Opcodes Breakdowns in stack - [solc-breakdowns](https://github.com/adityaxxz/assembly-opcodes/blob/main/breakdowns/solc-breakdowns.c%2B%2B)
 
 1. Write a basic simplestorage/horse store
 
